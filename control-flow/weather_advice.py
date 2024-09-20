@@ -1,9 +1,5 @@
 #Prompt User for Weather Input
-<<<<<<< HEAD
 weather = input("What's the weather like today? (sunny/rainy/cold) ")
-=======
-weather = input("What's the weather like today? (sunny/rainy/cold) ").lower()
->>>>>>> fe968e9ea9408c622e673ec8d444a30ef28963f6
 
 #Provide Clothing Recommendations
 if weather == "sunny":
