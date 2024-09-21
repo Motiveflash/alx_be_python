@@ -5,8 +5,7 @@ task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
 while priority not in ['high', 'medium', 'low']:
     priority = input("Priority must be (high/medium/low): ").lower()
-
-# Prompt for time bound     
+        
 time_bound = input("Is it time-bound? (yes/no): ").lower()
 while time_bound not in ['yes', 'no']:  
     time_bound = input("Is it time-bound? Enter (yes/no): ").lower()
