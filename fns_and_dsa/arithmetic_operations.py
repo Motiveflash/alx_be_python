@@ -1,12 +1,12 @@
-def perform_operation(num1, num2, operation ):
+def perform_operation(num1, num2, operation):
   match operation:
-    case "add":
+    case 'add':
       return num1 + num2
-    case "subtract":
+    case 'subtract':
       return num1 - num2
-    case "multiply":
+    case 'multiply':
       return num1 * num2
-    case "divide":
+    case 'divide':
       if num2 == 0:
         print("Zero(0) division error")
       else:
