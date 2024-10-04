@@ -1,6 +1,6 @@
 # A class representing a Book in the library
 class Book:
-    def _init_(self, title, author):
+    def __init__(self, title, author):
         if not title or not author:
             raise ValueError("Title and author cannot be empty.")
         self.title = title  
@@ -24,7 +24,7 @@ class Book:
         return not self._is_checked_out  
 
 class Library:
-    def _init_(self):
+    def __init__(self):
         self._books = [] 
 
     def add_book(self, book):
